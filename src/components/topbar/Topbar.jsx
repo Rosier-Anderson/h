@@ -54,6 +54,11 @@ export default function TopBar() {
             <Link className="link" to="/write">
               WRITE
             </Link>
+          </li>
+          <li className="topListItem">
+            <Link className="link" to="/todolist">
+              TODOLIST
+            </Link>
           </li>{" "}
           {user && (
             <div className="toplistItemLogout">

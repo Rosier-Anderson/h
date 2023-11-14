@@ -1,0 +1,81 @@
+.todoListTask {
+  flex: 10;
+
+  background-image: linear-gradient(
+      rgba(231, 213, 223, 0.2),
+      rgba(231, 217, 227, 0.1)
+    ),
+    url("https://images.pexels.com/photos/3426865/pexels-photo-3426865.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.todoRHeader {
+  width: 90%;
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.todoRHeader > span {
+  font-family: "Lora", serif;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
+.todoListItemsIcon {
+  width: 40px;
+  height: 30px;
+  background-color: rgb(49, 58, 58);
+  padding-left: 14px;
+  padding-top: 3px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.todoListItemsIcon > i {
+  font-size: 27px;
+  color: white;
+}
+.todoRInputItems {
+  display: flex;
+  width: 90%;
+  height: 40px;
+
+  position: absolute;
+  top: 95%;
+  border: none;
+  border-radius: 5px;
+}
+.todoRInputItems > label {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  height: calc(50px - 10px);
+  background-color: rgba(69, 66, 62, 0.9);
+}
+
+.todoRInputButton {
+  font-size: 27px;
+  border: none;
+  margin-top: 3px;
+  color: white;
+  background-color: unset;
+  padding-top: 2px;
+}
+.todoRIClass {
+  font-size: 1rem;
+  font-family: sans-serif;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  flex: 12;
+  background-color: rgba(69, 66, 62, 0.9);
+  border: none;
+  color: white;
+}
+.todoRIClass:focus,
+::placeholder {
+  outline: none;
+  color: white;
+}
